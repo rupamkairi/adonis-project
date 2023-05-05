@@ -13,7 +13,7 @@
     "Contracts": "contracts"
   },
   "preloads": ["./start/routes", "./start/kernel"],
-  "providers": ["./providers/AppProvider", "@adonisjs/core"],
+  "providers": ["@adonisjs/core", "./providers/AppProvider", "./providers/RouteProvider"],
   "aceProviders": ["@adonisjs/repl"],
   "tests": {
     "suites": [
